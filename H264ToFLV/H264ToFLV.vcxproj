@@ -60,9 +60,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\source\encapsulation.cpp" />
+    <ClCompile Include="..\source\flvfile.cpp" />
     <ClCompile Include="..\source\h264toflv.cpp" />
+    <ClCompile Include="..\source\param.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\source\encapsulation.h" />
+    <ClInclude Include="..\source\flvfile.h" />
     <ClInclude Include="..\source\h264toflv.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
