@@ -15,6 +15,7 @@ typedef struct flv_param
     int  i_fps;   //flv的fps信息               -f 配置 如：-f 25
     int  b_audio; //是否有音频信息             -a 配置 如：-a brazil-bq.aac
 	int  b_video; //是否有视频信息             -a 配置 如：-v brazil-bq.264
+	int  codecid; //H264 0x1B H265 0x24
 
 }flv_param;
 

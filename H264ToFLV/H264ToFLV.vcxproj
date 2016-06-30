@@ -69,6 +69,7 @@
     <ClInclude Include="..\source\encapsulation.h" />
     <ClInclude Include="..\source\flvfile.h" />
     <ClInclude Include="..\source\h264toflv.h" />
+    <ClInclude Include="..\source\nal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
